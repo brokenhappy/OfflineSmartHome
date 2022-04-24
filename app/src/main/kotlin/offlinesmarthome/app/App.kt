@@ -31,7 +31,7 @@ fun main() {
             }
         }
     }
-
+    println("App started")
     getDefaultMicrophone().readAudio(frameLength = picovoice.frameLength) { frame ->
         picovoice.process(frame)
     }
