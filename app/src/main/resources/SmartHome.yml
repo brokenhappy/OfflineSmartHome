@@ -1,0 +1,9 @@
+context:
+  expressions:
+    ChangeLightState:
+      - Turn $OnOrOff:state (the) lights
+      - Turn (the) lights $OnOrOff:state
+  slots:
+    OnOrOff:
+      - On
+      - Off
